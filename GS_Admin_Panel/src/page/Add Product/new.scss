@@ -1,0 +1,114 @@
+.new {
+    display: flex;
+    width: 100%;
+    .newContainer {
+        flex: 6;
+        .top,
+        .bottom {
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            padding: 10px;
+            margin: 20px;
+            display: flex;
+            h1 {
+                color: lightgray;
+                font-size: 20px;
+            }
+
+            .left {
+                flex: 1;
+                text-align: center;
+
+                img {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+            }
+            .right {
+                flex: 2;
+                form {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 30px;
+                    justify-content: space-around;
+
+                    .formInput {
+                        width: 40%;
+
+                        label {
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+                            
+                            .icon {
+                                cursor: pointer;
+                              
+                            }
+                        }
+
+                        input {
+                            width: 100%;
+                            padding: 5px;
+                            border: none;
+                            border-bottom: 1px solid gray;
+                            outline: none;
+                        }
+                    }
+
+                   
+                }
+            }
+        }
+    }
+}
+#btn{
+    margin-left: 15px;
+}
+#text-div{
+    margin-top: 8px;
+}
+.Image_div{
+    // background-color: red;
+    display: flex;
+    // justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+.imagebutton{
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+   
+    // margin-top: 2rem;
+    // margin-left: 150px;
+    // padding: 6px 16px;
+    font-size: 0.875rem;
+
+    
+}
+.maindiv{
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex; 
+    
+}
+.imageicon{
+    border-radius: 50px;
+    width: 150px; 
+}
+.imaageFiled{
+    
+    // margin-left: 40px;
+    display: flex;
+    // margin-top: 70px;
+    cursor: pointer;
+}
+

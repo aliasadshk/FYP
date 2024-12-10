@@ -1,0 +1,152 @@
+import {Dimensions, StyleSheet} from 'react-native';
+import commonStyle from '../../helper/commonStyle';
+const windowWidth = Dimensions.get('window').width;
+const windowHeight = Dimensions.get('window').height;
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    // justifyContent: 'center',
+  },
+  signupHeaderText: {
+    fontFamily: commonStyle.regular,
+    fontSize: 23,
+    marginTop: windowHeight * 0.1,
+    color: '#fff',
+  },
+  signupView: {
+    backgroundColor: '#fff',
+    width: windowWidth * 0.86,
+    height: windowHeight * 0.6,
+    marginTop: windowHeight * 0.02,
+    borderRadius: 10,
+    elevation: 2,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  inputCustomContainer: {
+    // backgroundColor: 'tomato',
+    width: windowWidth * 0.7,
+    height: windowHeight * 0.07,
+    alignSelf: 'center',
+    borderBottomColor: '#E6E6E6',
+    borderBottomWidth: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  errorMessageTextStyle: {
+    color: 'red',
+    textAlign: 'left',
+    // backgroundColor: 'gold',
+    width: windowWidth * 0.66,
+    fontFamily: commonStyle.regular,
+    fontSize: 12,
+  },
+  inputCustomLogoContainer: {
+    // backgroundColor: 'tomato',
+    width: windowWidth * 0.7,
+    height: windowHeight * 0.07,
+    alignSelf: 'center',
+    borderBottomColor: '#E6E6E6',
+    borderBottomWidth: 1,
+    justifyContent: 'space-around',
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  inputCountryCustomContainer: {
+    backgroundColor: 'green',
+    width: windowWidth * 0.7,
+    alignSelf: 'center',
+    justifyContent: 'center',
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 10,
+  },
+  inputCustom: {
+    // backgroundColor: 'tomato',
+    color: '#000',
+    width: windowWidth * 0.7,
+    fontSize: 16,
+    fontFamily: commonStyle.regular,
+  },
+  inputCountryCustom: {
+    // backgroundColor: 'tomato',
+    color: '#000',
+    width: windowWidth * 0.4,
+    fontSize: 16,
+
+    fontFamily: commonStyle.regular,
+  },
+  Auth1: {
+    backgroundColor: '#3292E0',
+    borderRadius: 50,
+    width: windowWidth * 0.8,
+    height: windowHeight * 0.08,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: windowHeight * 0.02,
+    elevation: 2,
+    marginTop: windowHeight * 0.03,
+  },
+  AuthButtonText: {
+    color: '#fff',
+    fontFamily: commonStyle.regular,
+  },
+  agreeTermTextContainer: {
+    marginTop: 30,
+    alignSelf: 'center',
+    justifyContent: 'center',
+    alignItems: 'center',
+    // backgroundColor: 'tomato',
+    width: windowWidth * 0.7,
+    flexDirection: 'row',
+  },
+  agreeTermText: {
+    color: '#838391',
+    fontSize: 9,
+    fontFamily: commonStyle.regular,
+    textAlign: 'center',
+  },
+  agreeTermUSeText: {
+    color: '#3292E0',
+    fontSize: 9,
+    fontFamily: commonStyle.regular,
+    textAlign: 'center',
+  },
+  phoneContainer: {
+    // width: '75%',
+    width: windowWidth * 0.75,
+    height: 50,
+    backgroundColor: '#fff',
+    elevation: 0,
+  },
+  textInput: {
+    paddingVertical: 0,
+    // backgroundColor: 'gold',
+    width: windowWidth * 0.6,
+    backgroundColor: '#fff',
+    fontFamily: commonStyle.regular,
+    color: '#000',
+  },
+  codeTextStyle: {
+    fontFamily: commonStyle.regular,
+    fontSize: 15,
+    // backgroundColor: 'gold',
+    // width: windowWidth * 0.1,
+    textAlign: 'center',
+    textAlignVertical: 'center',
+  },
+  countryPickerButtonStyle: {
+    // backgroundColor: 'gold',
+    width: 70,
+  },
+  textInputStyle: {
+    fontFamily: commonStyle.regular,
+    color: '#000',
+    borderBottomColor: '#E6E6E6',
+    borderBottomWidth: 1,
+  },
+});
+
+export default styles;
